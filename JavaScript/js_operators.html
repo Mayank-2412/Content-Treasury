@@ -34,7 +34,91 @@
 
         // Exponent
         var res_expo = num1**num2
-        document.write("Exponent is:" + res_expo + "<br>")
+        document.write("Exponent is:" + res_expo + "<br><br>")
+
+        // --------------------------------------------------------------------------------------------------------------------------
+
+        document.write("2.	Assignment Operators (+=, -= , *= ,  /= , %= , **=) <br> --------------------------------- <br>")
+
+        var num3=10
+        var num4=4
+
+        num3+=num4 // num3 = num3+num4
+        document.write("Addition is : " + num3 + "<br>")
+
+        num3-=num4 // num3 = num3-num4
+        document.write("Subtraction is : " + num3 + "<br>")
+
+        num3*=num4 // num3 = num3*num4
+        document.write("Multiplication is : " + num3 + "<br>")
+
+        num3/=num4 // num3 = num3/num4
+        document.write("Division is : " + num3 + "<br>")
+
+        num3%=num4 // num3 = num3%num4
+        document.write("Modulus is : " + num3 + "<br>")
+
+        num3**=num4 // num3 = num3**num4
+        document.write("Exponent is : " + num3 + "<br><br>")
+
+        // --------------------------------------------------------------------------------------------------------------------------
+
+        document.write("3.	Comparison Operators (==, ===, !=, >, >=, <, <=) <br> --------------------------------- <br>")
+
+        num5=10
+        num6=10
+
+        var res1=(num5==num6)
+        document.write(res1 + "<br>")
+
+        var res2=(num5!=num6)
+        document.write(res2 + "<br>")
+
+        var res3=(num5===num6)
+        document.write(res3 + "<br>")
+
+        var res4=(num5>num6)
+        document.write(res4 + "<br>")
+
+        var res5=(num5<num6)
+        document.write(res5 + "<br>")
+
+        var res6=(num5>=num6)
+        document.write(res6 + "<br>")
+
+        var res7=(num5<=num6)
+        document.write(res7 + "<br><br>")
+
+        // --------------------------------------------------------------------------------------------------------------------------
+
+        document.write("4. Logical Operators (&&, ||, !) <br> --------------------------------- <br>")
+
+        // && ---- all the conditions need to be true
+        // || ---- atleast one condition need to be true
+        // ! ---- it is the opposite of and. If the condition is true then it returns false and vice versa
+
+        var num7 = 12
+        var num8 = 10
+
+        var res1 = ((num7>num8) && (num7!=0))
+        document.write(res1 + "<br>")
+
+        var res2 = ((num7>num8) || (num7!=0))
+        document.write(res2 + "<br>")
+
+        var res3 = !((num7>num8) && (num7!=0))
+        document.write(res3 + "<br><br>")
+
+        //--------------------------------------------------------------------------------------------------------------------------------
+
+        document.write("5. Conditional / Ternary Operators (?, :) <br> --------------------------------- <br>")
+
+        var num9 = 10
+        var num10 = 2
+
+        var res1 = (num9>num10) ? "Number9 is greater" : "Number10 is greater"
+        document.write(res1)
+
     </script>
 </body>
 </html>
